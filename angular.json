@@ -91,6 +91,14 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@netlify-builder/deploy:deploy",
+          "options": {
+            "outputPath": "docs",
+            "netlifyToken": "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",
+            "siteId": ""
+          }
         }
       }
     }
